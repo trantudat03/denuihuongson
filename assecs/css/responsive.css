@@ -1,0 +1,12 @@
+@media (max-width: 739px) {
+    .hide-on-mobile{
+        display: none;
+    }
+
+    .change__page-item {
+        margin: 0 4px;
+    }
+    .header__search {
+        margin-left: 12px;
+    }
+}
