@@ -315,7 +315,7 @@
         render: function() {
             const menus = this.lau.map(function(item) {
                 return `
-                    <div class="col p-3">
+                    <div class="col p-3 m-6 t-4">
                             <div class="menu__list-item">
                                 <a href="" class="menu__list-wrap-img">
                                     <img class="menu__item-img" src="${item.img}" alt="">
@@ -343,7 +343,7 @@
     function renderSon(x) {
         const menuOne = app[x].map(function(item) {
             return `
-                <div class="col p-3">
+                <div class="col p-3 m-6 t-4">
                         <div class="menu__list-item">
                             <a href="" class="menu__list-wrap-img">
                                 <img class="menu__item-img" src="${item.img}" alt="">

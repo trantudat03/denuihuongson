@@ -24,8 +24,8 @@
 }
 
 .col {
-    padding-left: 24px;
-    padding-right: 24px;
+    /* padding-left: 24px;
+    padding-right: 24px; */
     
 }
 
@@ -190,8 +190,8 @@
         }
     
         .t-4 {
-            flex: 0 0 33.33333%;
-            max-width: 33.33333%;
+            flex: 0 0 30.33333%;
+            max-width: 30.33333%;
         }
     
         .t-5 {
