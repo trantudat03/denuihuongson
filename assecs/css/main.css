@@ -133,14 +133,15 @@ a {
 
 .header__logo {
     margin: 0 auto;
-    width: 280px;
+    width: 150px;
     height: 60px;
     /* background-color: rgb(237, 188, 99); */
     display: flex;
     justify-content: center;
     align-items: center;
-    /* top: 100%;
+    /* top: 100%;   
     right: 45%; */
+    /* overflow: hidden; */
 }
 
 .header__logo img {
@@ -651,9 +652,12 @@ a {
 .contact_close {
     position: absolute;
     top: 5px;
-    right: 10px;
+    right: 0px;
     cursor: pointer;
     font-size: 16px;
+    width: 30px;
+    height: 25px;
+    /* background-color: #2718ab; */
 }
 
 .contact_close i {
@@ -688,4 +692,15 @@ a {
     color: #2718ab;
     font-size: 18px;
     font-weight: 600;
+}
+
+.contact_address {
+    margin-top: 10px;
+}
+
+.contact_address a {
+    color: #333;
+    font-size: 16px;
+    /* font-weight: 600; */
+
 }
