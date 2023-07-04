@@ -485,5 +485,19 @@
         }
         
 
+        // show list on mobile
+
+        var header_bars = document.querySelector('.header_bars');
+        var header_bars_list = document.querySelector('.header_bars-list')
+        header_bars.addEventListener('click', ()=> {
+            if(header_bars_list.classList.contains('hide-on-mobile')) {
+                header_bars_list.classList.remove("hide-on-mobile");
+                header_bars_list.classList.add("show-on-mobile")
+            }else {
+                header_bars_list.classList.remove("show-on-mobile");
+                header_bars_list.classList.add("hide-on-mobile")
+            }
+        })
+
     activeItem();
     openImg();

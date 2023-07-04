@@ -4,6 +4,10 @@
         display: none;
     }
 
+    .show-on-mobile {
+        display: block;
+    }
+
     .change__page-item {
         margin: 0 4px;
     }
