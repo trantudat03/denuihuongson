@@ -15,6 +15,8 @@
 </head>
 <body>
    <div class="wrapper">
+       
+       
        <div id="header" >
             <div class="navbar grid wide">
                 <div class="header_bars show-on-mobile">
@@ -24,9 +26,10 @@
                         <li class="header_bars-item"><a class="header_bars_a " href="#go__introduce">GIỚI THIỆU</a></li>
                         <li class="header_bars-item"><a class="header_bars_a " href="#go__menu">THỰC ĐƠN</a> </li>
                         <li class="header_bars-item"><a class="header_bars_a " href="#go__spatial">KHÔNG GIAN</a></li>
-                        <li class="header_bars-item"><a class="header_bars_a " href="">TIN TỨC</a></li>
+                        <!-- <li class="header_bars-item"><a class="header_bars_a " href="">TIN TỨC</a></li> -->
                         <li class="header_bars-item"><a class="header_bars_a " href="./tuyen-dung.html">TUYỂN DỤNG</a></li>
-                        <li class="header_bars-item"><a class="header_bars_a " href="">LIÊN HỆ</a></li>
+                        <li class="header_bars-item"><a class="header_bars_a " href="javascript:void(0)" onclick="showContact()">LIÊN HỆ</a></li>
+
                     </ul>
                     <div class="over_black1 hide-on-mobile"></div>
                 </div>
@@ -53,9 +56,9 @@
                 </div>
                 <ul class="header_list-right header_list-menu hide-on-mobile">
                     <li class="header_list-item"><a class="header_item_a " href="#go__spatial">KHÔNG GIAN</a></li>
-                    <li class="header_list-item"><a class="header_item_a " href="">TIN TỨC</a></li>
+                    <!-- <li class="header_list-item"><a class="header_item_a " href="">TIN TỨC</a></li> -->
                     <li class="header_list-item"><a class="header_item_a " href="./tuyen-dung.html">TUYỂN DỤNG</a></li>
-                    <li class="header_list-item"><a class="header_item_a " href="">LIÊN HỆ</a></li>
+                    <li class="header_list-item"><a class="header_item_a " href="javascript:void(0)" onclick="showContact()">LIÊN HỆ</a></li>
                 </ul>
             </div>
        </div>
@@ -86,6 +89,22 @@
        </div>
 
        <div id="wrap__content ">
+            <div class="contact_wrap">
+                <div class="contact_close" onclick="showContact()">
+                    <i class="fa-solid fa-x"></i>
+                </div>
+                <div class="contact_title">
+                    <h3>LIÊN HỆ</h3>
+                </div>
+                <button id="callButton"><i class="fa-solid fa-phone"></i>Gọi ngay</button>
+                <div class="contact_facebook">
+                    <a href="https://www.facebook.com/profile.php?id=100026546637022">
+                        <i class="fa-brands fa-facebook"></i>
+                        Dê núi Hương Sơn
+                    </a> </div>
+                    
+            </div>
+            <div class="over_black2 " onclick="showContact()"></div>
             <div id="introduce" class="grid wide">
                 <div class="introduce__wrap">
                     <div class="introduce__wrap-img">

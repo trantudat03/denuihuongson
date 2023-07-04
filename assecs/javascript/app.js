@@ -504,5 +504,25 @@
             }
         })
 
+        document.getElementById("callButton").addEventListener("click", function() {
+            var phoneNumber = "0982516779"; // Số điện thoại cần gọi
+            window.location.href = "tel:" + phoneNumber;
+          });
+
+
+        function showContact() {
+            var contact_wrap = document.querySelector('.contact_wrap');
+            var over_black2 = document.querySelector('.over_black2');
+            var currentDisplay = contact_wrap.style.display;
+
+            if (currentDisplay === 'block') {
+                 contact_wrap.style.display = 'none';
+                over_black2.style.display = 'none';
+            } else {
+                 contact_wrap.style.display = 'block';
+                 over_black2.style.display = 'block';
+            }
+        }
+
     activeItem();
     openImg();
