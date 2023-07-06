@@ -3,59 +3,135 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dê Núi Hương Sớn</title>
+    <title>Tuyển dụng</title>
     <link rel="stylesheet" href="./assecs/fontawesome-free-6.1.1-web/css/all.css">
     <link rel="stylesheet" href="./assecs/themify-icons/themify-icons.css">
     <link rel="stylesheet" href="./assecs/css/base.css">
     <link rel="stylesheet" href="./assecs/css/grid.css">
     <link rel="stylesheet" href="./assecs/css/main.css">
     <link rel="stylesheet" href="./assecs/css/responsive.css">
+    <link rel="stylesheet" href="./assecs/css/tuyendung.css">
 </head>
 <body>
-    <div id="header" >
-        <div class="navbar grid wide">
-            <div class="header_bars show-on-mobile">
-                <i class="fa-solid fa-bars"></i>
-                <ul class="header_bars-list hide-on-mobile ">
-                    <li class="header_bars-item "><a class="header_bars_a " href="./index.html">TRANG CHỦ</a> </li>
-                    <li class="header_list-item"><a class="header_item_a " href="./index.html#go__introduce">GIỚI THIỆU</a></li>
-                <li class="header_list-item"><a class="header_item_a " href="./index.html#go__menu">THỰC ĐƠN</a> </li>
-                <li class="header_list-item"><a class="header_item_a " href="./index.html#go__spatial">KHÔNG GIAN</a></li>
-                <!-- <li class="header_list-item"><a class="header_item_a " href="">TIN TỨC</a></li> -->
-                <li class="header_list-item"><a class="header_item_a " href="./tuyen-dung.html">TUYỂN DỤNG</a></li>
-                <li class="header_list-item"><a class="header_item_a " href="javascript:void(0)" onclick="showContact()">LIÊN HỆ</a></li>
+    <div class="wrapper">
+        <div id="header" >
+            <div class="navbar grid wide">
+                <div class="header_bars show-on-mobile">
+                    <i class="fa-solid fa-bars"></i>
+                    <ul class="header_bars-list hide-on-mobile ">
+                        <li class="header_bars-item "><a class="header_bars_a "href="./index.html">TRANG CHỦ</a> </li>
+                        <li class="header_bars-item"><a class="header_bars_a " href="./index.html#go__introduce">GIỚI THIỆU</a></li>
+                        <li class="header_bars-item"><a class="header_bars_a " href="./index.html#go__menu">THỰC ĐƠN</a> </li>
+                        <li class="header_bars-item"><a class="header_bars_a " href="./index.html#go__spatial">KHÔNG GIAN</a></li>
+                        <!-- <li class="header_bars-item"><a class="header_bars_a " href="">TIN TỨC</a></li> -->
+                        <li class="header_bars-item"><a class="header_bars_a " href="./tuyen-dung.html">TUYỂN DỤNG</a></li>
+                        <li class="header_bars-item"><a class="header_bars_a " href="javascript:void(0)" onclick="showContact()">LIÊN HỆ</a></li>
 
+                    </ul>
+                    <div class="over_black1 hide-on-mobile"></div>
+                </div>
+                <div class="open__time hide-on-mobile">
+                    <i class="fa-solid fa-door-open"></i>
+                    <span>11h-24h</span>
+                </div>
+                <div class="number-phone">
+                    <i class="fa-solid fa-phone-volume"></i>
+                    <span>0982516779</span>
+                </div>
+            </div>
+            <div class="header_list grid wide ">
+                <ul class="header_list-left header_list-menu hide-on-mobile">
+                    <li class="header_list-item "><a class="header_item_a " href="./index.html">TRANG CHỦ</a> </li>
+                    <li class="header_list-item"><a class="header_item_a " href="./index.html#go__introduce">GIỚI THIỆU</a></li>
+                    <li class="header_list-item"><a class="header_item_a " href="./index.html#go__menu">THỰC ĐƠN</a> </li>
                 </ul>
-                <div class="over_black1 hide-on-mobile"></div>
+                <div class="header__logo">
+                    <a href="./index.html">
+                        <img src="./assecs/img/logohs3.png" alt="">
+                    </a>
+                    
+                </div>
+                <ul class="header_list-right header_list-menu hide-on-mobile">
+                    <li class="header_list-item"><a class="header_item_a " href="./index.html#go__spatial">KHÔNG GIAN</a></li>
+                    <!-- <li class="header_list-item"><a class="header_item_a " href="">TIN TỨC</a></li> -->
+                    <li class="header_list-item"><a class="header_item_a " href="./tuyen-dung.html">TUYỂN DỤNG</a></li>
+                    <li class="header_list-item"><a class="header_item_a " href="javascript:void(0)" onclick="showContact()">LIÊN HỆ</a></li>
+                </ul>
             </div>
-            <div class="open__time hide-on-mobile">
-                <i class="fa-solid fa-door-open"></i>
-                <span>11h-24h</span>
+       </div>
+
+       <div class="body_wrap">
+        <div class="contact_wrap">
+            <div class="contact_close" onclick="showContact()">
+                <i class="fa-solid fa-x"></i>
             </div>
-            <div class="number-phone">
-                <i class="fa-solid fa-phone-volume"></i>
-                <span>0982516779</span>
+            <div class="contact_title">
+                <h3>LIÊN HỆ</h3>
             </div>
-        </div>
-        <div class="header_list grid wide ">
-            <ul class="header_list-left header_list-menu hide-on-mobile">
-                <li class="header_list-item "><a class="header_item_a " href="./index.html">TRANG CHỦ</a> </li>
-                <li class="header_list-item"><a class="header_item_a " href="./index.html#go__introduce">GIỚI THIỆU</a></li>
-                <li class="header_list-item"><a class="header_item_a " href="./index.html#go__menu">THỰC ĐƠN</a> </li>
-            </ul>
-            <div class="header__logo">
-                <a href="./index.html">
-                    <img src="./assecs/img/logohs3.png" alt="">
+            <button id="callButton"><i class="fa-solid fa-phone"></i>Gọi ngay</button>
+            <div class="contact_facebook">
+                <a href="https://www.facebook.com/profile.php?id=100026546637022">
+                    <i class="fa-brands fa-facebook"></i>
+                    Dê núi Hương Sơn
+                </a> </div>
+            <div class="contact_address">
+                <a href=" https://www.google.com/maps/place/D%C3%AA+n%C3%BAi+H%C6%B0%C6%A1ng+S%C6%A1n/@10.83144,106.727838,16z/data=!4m6!3m5!1s0x317527d4b6008233:0xe45c46b7d8f0340c!8m2!3d10.8314398!4d106.7278376!16s%2Fg%2F11f03xdl1j?hl=vi&entry=ttu">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Dê núi Hương sơn, số 2, đường số 3, Hiệp Bình Chánh, Tp.Thủ Đức
                 </a>
+            </div>
+                
+        </div>
+            <div class="bgr_tuyendung">
+                <img src="./assecs/img/bgrtuyendung.jpg" alt="">
+            </div>
+            <div class="grid wide">
+                <div class="row ">
+                    <div class="body_img col p-6">
+                        <img src="./assecs/img/tuyendung3.jpg" alt="">
+                    </div>
+                    <div class="body_content col p-6">
+                        <div class="loi_the">
+                            <h3>-Chúng tôi mang đến giá trị số 1!</h3>
+                            <ul style="margin: 0; list-style: number; margin-left: 30px;">
+                                <li>Môi trường làm việc trẻ trung năng động</li>
+                                <li>Thưởng lễ, thưởng doanh thu</li>
+                                <li>Tiền tip nhân viên dữ</li>
+                                <li>Fulltime: Miễn phí ăn và chỗ ở</li>
+                                <li>Tạo điều kiện thuận lợi nhất để nhân viên thoải mái làm việc</li>
+                            </ul>
+                        </div>
+                        <div class="vi_tri_tuyen">
+                            <h3>-Vị trí tuyển dụng</h3>
+                            <ul style="margin: 0; list-style: number; margin-left: 30px;">
+                                <li><span>Bếp trưởng</span>, lương: liên hệ</li>
+                                <li><span>Phụ bếp</span>, lương: liên hệ</li>
+                                <li><span>Tạp vụ</span>, lương: liên hệ</li>
+                                <li><span>Phục vụ</span>, lương: liên hệ</li>
+                                <li><span>Giữ Xe</span>, lương: liên hệ</li>
+                            </ul>
+                        </div>
+                        <div class="tuyen_dung_Contact">
+                            <h3>-Ứng tuyển qua</h3>
+                            <div class="wrap_contact">
+                                <button id="callBtbTuyenDung"><i class="fa-solid fa-phone"></i>Gọi ngay</button>
+                                <a href="https://www.facebook.com/tranminh.an.336" target="_blank" class="facebook-button">Facebook</a>
+                            </div>
+                            
+                        </div>
+                        
+                        
+                        
+                    </div>
+                </div>
                 
             </div>
-            <ul class="header_list-right header_list-menu hide-on-mobile">
-                <li class="header_list-item"><a class="header_item_a " href="./index.html#go__spatial">KHÔNG GIAN</a></li>
-                <!-- <li class="header_list-item"><a class="header_item_a " href="">TIN TỨC</a></li> -->
-                <li class="header_list-item"><a class="header_item_a " href="./tuyen-dung.html">TUYỂN DỤNG</a></li>
-                <li class="header_list-item"><a class="header_item_a " href="javascript:void(0)" onclick="showContact()">LIÊN HỆ</a></li>
-            </ul>
-        </div>
-   </div>
+        
+       </div>
+    </div>
+
+
+    
 </body>
+<script src="./assecs/javascript/tuyendung.js"></script>
 </html>

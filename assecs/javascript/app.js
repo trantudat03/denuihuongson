@@ -509,6 +509,13 @@
             window.location.href = "tel:" + phoneNumber;
           });
 
+        document.getElementById("callBtbTuyenDung").addEventListener("click", ()=> {
+
+            console.log("hellooss")
+            var phoneNumber = "0343040993";
+            window.location.href = "tel:" + phoneNumber;
+        })
+
 
         function showContact() {
             var contact_wrap = document.querySelector('.contact_wrap');
