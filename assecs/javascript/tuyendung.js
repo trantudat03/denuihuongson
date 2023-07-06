@@ -1,3 +1,8 @@
+document.getElementById("callButton").addEventListener("click", function() {
+    var phoneNumber = "0982516779"; // Số điện thoại cần gọi
+    window.location.href = "tel:" + phoneNumber;
+  });
+
 
 document.getElementById("callBtbTuyenDung").addEventListener("click", ()=> {
 

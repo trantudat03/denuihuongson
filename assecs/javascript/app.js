@@ -385,18 +385,10 @@
         
     }
 
-    // const menu__optionLength = menu__option_item.length;
-    // console.log(menu__optionLength);
-    // for(let i = 0;i<menu__optionLength;i++) {
-    //     console.log('helli');
-    //     menu__option_item[i].onclick = function() {
-    //         console.log('helli');
-    //         console.log(i);
-            
-    //     }
-    // }
+    
 
     app.render();
+    activeItem();
     // code header
     function activeItem() {
         let itemLength = menu__option_item.length;
@@ -409,42 +401,7 @@
                 menu__option_item[i].classList.add('active-option-item');
 
                 renderOne(i);
-                // if(i==0){
-                //     const menuOne = app.lau.map(function(item) {
-                //         return `
-                //             <div class="col p-3">
-                //                     <div class="menu__list-item">
-                //                         <a href="" class="menu__list-wrap-img">
-                //                             <img class="menu__item-img" src="${item.img}" alt="">
-                //                         </a>
-                //                         <div class="menu__item-content">
-                //                             <a href="" class="menu__item-name">${item.name}</a>
-                //                             <h4 class="menu__item-pirce">${item.price}</h4>
-                //                         </div>
-                //                     </div>
-                //             </div> 
-                //             `
-                //     });
-                //     menu__list_wrap.innerHTML = menuOne.join('');
-                // }
-                // if(i==1){
-                //     const menuOne = app.nuong.map(function(item) {
-                //         return `
-                //             <div class="col p-3">
-                //                     <div class="menu__list-item">
-                //                         <a href="" class="menu__list-wrap-img">
-                //                             <img class="menu__item-img" src="${item.img}" alt="">
-                //                         </a>
-                //                         <div class="menu__item-content">
-                //                             <a href="" class="menu__item-name">${item.name}</a>
-                //                             <h4 class="menu__item-pirce">${item.price}</h4>
-                //                         </div>
-                //                     </div>
-                //             </div> 
-                //             `
-                //     });
-                //     menu__list_wrap.innerHTML = menuOne.join('');
-                // }
+                
                 
                 
             }
@@ -483,6 +440,8 @@
         zoom__img_icon.onclick = function() {
             zoom__img.style.display = 'none';
         }
+
+        openImg();
         
 
         // show list on mobile
@@ -531,5 +490,5 @@
             }
         }
 
-    activeItem();
-    openImg();
+    
+    
